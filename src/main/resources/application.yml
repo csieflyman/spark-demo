@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+app:
+  upload:
+    dir: C:\project\temp
+  hadoop:
+    user: csieflyman
+
+spring:
+  hadoop:
+    fsUri: hdfs://localhost:9000
+
+spark:
+  appName: demo
+  home: C:\dev\spark-2.4.3-bin-hadoop2.7
+  masterUri: spark://localhost:7077
